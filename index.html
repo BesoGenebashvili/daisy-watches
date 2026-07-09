@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daisy Watches</title>
+    <meta
+      name="description"
+      content="A personal collection of watches — photographed with care."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1 class="site-title">Daisy Watches</h1>
+      <p class="site-subtitle">A personal collection</p>
+    </header>
+
+    <main>
+      <ul id="gallery" class="gallery" aria-label="Watch collection"></ul>
+    </main>
+
+    <script src="data/watches.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+      renderGallery(document.getElementById("gallery"));
+    </script>
+  </body>
+</html>
