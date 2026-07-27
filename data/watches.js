@@ -120,4 +120,20 @@ window.WATCHES = [
       },
     ],
   },
+  {
+    slug: "vostok",
+    name: "Vostok",
+    description: "Mini Amphibia, 1980s",
+    cover: "assets/images/vostok/01.jpg",
+    images: [
+      {
+        src: "assets/images/vostok/01.jpg",
+        alt: "Vostok",
+      },
+      {
+        src: "assets/images/vostok/02.jpg",
+        alt: "Vostok — detail",
+      },
+    ],
+  },
 ];
